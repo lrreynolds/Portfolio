@@ -14,6 +14,8 @@
 		6E216EBA257C4A3300B1D14C /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E216EB8257C4A3300B1D14C /* Main.xcdatamodeld */; };
 		6E216EBD257C51C400B1D14C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E216EBC257C51C400B1D14C /* DataController.swift */; };
 		6E216EC3257C66FD00B1D14C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E216EC2257C66FD00B1D14C /* CloudKit.framework */; };
+		6E216EC5257D2F1200B1D14C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E216EC4257D2F1200B1D14C /* Home.swift */; };
+		6E216EC9257D317D00B1D14C /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E216EC8257D317D00B1D14C /* WorkoutsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		6E216EBC257C51C400B1D14C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		6E216EBF257C66D200B1D14C /* Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portfolio.entitlements; sourceTree = "<group>"; };
 		6E216EC2257C66FD00B1D14C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		6E216EC4257D2F1200B1D14C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6E216EC8257D317D00B1D14C /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				6E216EBF257C66D200B1D14C /* Portfolio.entitlements */,
 				6E216EA8257C461800B1D14C /* PortfolioApp.swift */,
+				6E216EC4257D2F1200B1D14C /* Home.swift */,
+				6E216EC8257D317D00B1D14C /* WorkoutsView.swift */,
 				6E216EAA257C461800B1D14C /* ContentView.swift */,
 				6E216EB8257C4A3300B1D14C /* Main.xcdatamodeld */,
 				6E216EBC257C51C400B1D14C /* DataController.swift */,
@@ -160,6 +166,8 @@
 			files = (
 				6E216EBA257C4A3300B1D14C /* Main.xcdatamodeld in Sources */,
 				6E216EBD257C51C400B1D14C /* DataController.swift in Sources */,
+				6E216EC9257D317D00B1D14C /* WorkoutsView.swift in Sources */,
+				6E216EC5257D2F1200B1D14C /* Home.swift in Sources */,
 				6E216EAB257C461800B1D14C /* ContentView.swift in Sources */,
 				6E216EA9257C461800B1D14C /* PortfolioApp.swift in Sources */,
 			);

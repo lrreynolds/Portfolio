@@ -51,7 +51,7 @@ class DataController: ObservableObject {
         
         for j in 1...10 {
              let exercise = Exercise(context: viewContext)
-            exercise.title = ("Workout: \(j)")
+            exercise.title = ("Exercise: \(j)")
             exercise.completed = Bool.random()
             exercise.dateCreated = Date()
             exercise.workout = workout
