@@ -27,9 +27,9 @@ struct WorkoutsView: View {
         NavigationView{
             List {
                 ForEach(workouts.wrappedValue) {workout in
-                    Section(header: Text(workout.title ?? "")) {
-                        ForEach(workout.exercises?.allObjects as? [Exercise] ?? []) {exercise in
-                            Text(exercise.title ?? "")
+                    Section(header: Text(workout.workoutTitle)) {
+                        ForEach(workout.workoutExercises) {exercise in
+                            Text(exercise.exerciseTitle)
                         }
                     }
                 }
