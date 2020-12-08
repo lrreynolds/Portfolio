@@ -9,6 +9,9 @@ import SwiftUI
 
 struct WorkoutsView: View {
     //MARK: - PROPERTIES
+    
+    static let openTag: String? = "Open"
+    static let closedTag: String? = "Closed"
     let showCompletedWorkouts: Bool
     
     let workouts: FetchRequest<Workout>
