@@ -32,7 +32,7 @@ struct WorkoutsView: View {
                 ForEach(workouts.wrappedValue) {workout in
                     Section(header: Text(workout.workoutTitle)) {
                         ForEach(workout.workoutExercises) {exercise in
-                            Text(exercise.exerciseTitle)
+                            ExerciseRowView(exercise: exercise)
                         }
                     }
                 }
@@ -41,6 +41,7 @@ struct WorkoutsView: View {
             .navigationTitle(showCompletedWorkouts ?  "Closed Workouts:" : "Open Workouts:")
         }
     }
+   
 }
 
 struct WorkoutsView_Previews: PreviewProvider {
